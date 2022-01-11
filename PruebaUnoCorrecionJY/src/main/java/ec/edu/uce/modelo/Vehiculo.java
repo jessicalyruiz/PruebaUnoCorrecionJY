@@ -4,13 +4,13 @@ import java.math.BigDecimal;
 
 public class Vehiculo {
 
-	private String marca;
-	private String paisOrigen;
-	private String placa;
-	private String tipo;
-	private Propietario propietario;
-	private BigDecimal precio;
-	private BigDecimal valorMatricula;
+	protected String marca;
+	protected String paisOrigen;
+	protected String placa;
+	protected String tipo;
+	protected Propietario propietario;
+	protected BigDecimal precio;
+	protected BigDecimal valorMatricula;
 	
 	
 	@Override
